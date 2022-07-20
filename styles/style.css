@@ -9,14 +9,6 @@ body {
     padding: 0px;
 }
 
-/* .main-display {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-} */
-
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -39,9 +31,7 @@ body {
     transition: all 1s linear;
     color: tomato;
 
-
 }
-
 
 
 .header-text a {
@@ -145,7 +135,7 @@ body {
     color: gray;
 }
 
-/* upcomming pases style */
+/* upcomming pages style */
 
 .matches {
     display: flex;
@@ -243,6 +233,8 @@ footer hr {
 
 
 /* Media quires */
+
+/* for mobile */
 
 @media screen and (max-width:576px) {
     .container {
