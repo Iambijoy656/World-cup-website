@@ -227,6 +227,17 @@ footer hr {
     align-items: center;
 }
 
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #B9B9B9;
+    margin-right: 20px;
+}
+
+
 
 
 
@@ -295,7 +306,7 @@ footer hr {
 
 
 
-/* TAb quires */
+/* for TAb quires */
 
 
 
@@ -358,5 +369,14 @@ footer hr {
 
     .footer a {
         margin-bottom: 10px;
+    }
+
+    .social-media {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 95%;
+
+
     }
 }
